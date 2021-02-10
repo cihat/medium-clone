@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <label class="popup-open-btn" for="settings-popup"> Settings </label>
+    <input type="checkbox" data-popup id="settings-popup" />
+    <div class="popup">
+      <div class="settings-popup">
+        <label class="close-popup" for="settings-popup">
+          <img src="img/icon-close.svg" />
+          <span>Close</span>
+        </label>
+        <h3>Settings</h3>
+        <ul>
+          <li>
+            <div class="item">
+              <h5>Language</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero
+                inventore vel aut expedita magnam error odio, modi sed. Commodi
+                accusamus harum itaque eaque ad asperiores tenetur officiis
+                aliquam voluptatem obcaecati placeat.
+              </p>
+              <select class="">
+                <option value="english">English</option>
+                <option value="english">Türkçe</option>
+                <option value="english">Almanca</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <div class="item">
+              <h5>Autoplay Vidoes</h5>
+              <p>Choose if you wnat to autoplay on your browser</p>
+            </div>
+            <label class="checkbox-input">
+              <input type="checkbox" checked />
+              <span class="checkbox"></span>
+            </label>
+          </li>
+          <li>
+            <div class="item">
+              <h5>Show profile photes</h5>
+              <p>
+                Choose whether to show or hide profile photos of other members.
+              </p>
+            </div>
+            <label class="checkbox-input">
+              <input type="checkbox" />
+              <span class="checkbox"></span>
+            </label>
+          </li>
+        </ul>
+        <div class="actions">
+          <a href="#" class="active">Save</a>
+          <a href="#">Cancel</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
