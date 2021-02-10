@@ -20,7 +20,7 @@ body {
   height: 100vh;
 
   .header {
-    width: 90%;
+    width: 60%;
     margin: auto;
     height: 65px;
     display: flex;
@@ -82,7 +82,7 @@ body {
     }
   }
   main {
-    width: 60%;
+    width: 35%;
     margin: auto;
 
     .title {
@@ -110,15 +110,18 @@ body {
     .photo {
       img.images {
         width: 60vw;
+        max-width: 60vw;
         margin: 20px 0;
         box-sizing: border-box;
         border-radius: 5px;
       }
     }
     .photo-info {
+      margin: 20px 0;
       color: rgba(132, 133, 133, 1);
       display: flex;
       justify-content: center;
+
       a {
         color: rgba(132, 133, 133, 1);
         text-decoration: underline;
@@ -132,20 +135,58 @@ body {
     }
     p.text-paragraf {
       font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-      font-size: 1.4rem;
-      line-height: 1.5rem;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
       margin-bottom: 40px;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      font-style: normal;
+      color: rgba(41, 41, 41, 1);
+      word-break: break-word;
     }
     h1.sub-title {
       font-weight: 900;
       font-size: 1.4rem;
       font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 20px 0;
     }
     img.images {
-      width: 60vw;
+      width: 35vw;
       margin: 20px 0;
       box-sizing: border-box;
       border-radius: 5px;
     }
+
+    .list {
+      ul {
+        li {
+          font-size: 1.4rem;
+          font-weight: 400;
+          text-decoration: dashed;
+          list-style: circle;
+        }
+        // display: inline;
+        text-decoration: dashed;
+      }
+    }
+    ul {
+      li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: dashed;
+        list-style: circle;
+      }
+      // display: inline;
+      text-decoration: dashed;
+      margin: 30px;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+  }
+  footer.footer-page {
+    height: 355px;
+    background-color: black;
   }
 }

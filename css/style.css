@@ -15,7 +15,7 @@ body {
   background: #fff;
   height: 100vh; }
   body .header {
-    width: 90%;
+    width: 60%;
     margin: auto;
     height: 65px;
     display: flex;
@@ -60,7 +60,7 @@ body {
         font-size: 16px;
         color: #848585; }
   body main {
-    width: 60%;
+    width: 35%;
     margin: auto; }
     body main .title h1 {
       font-size: 48px;
@@ -76,10 +76,12 @@ body {
           color: #848585; }
     body main .photo img.images {
       width: 60vw;
+      max-width: 60vw;
       margin: 20px 0;
       box-sizing: border-box;
       border-radius: 5px; }
     body main .photo-info {
+      margin: 20px 0;
       color: #848585;
       display: flex;
       justify-content: center; }
@@ -93,15 +95,41 @@ body {
       font-size: 30px; }
     body main p.text-paragraf {
       font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-      font-size: 1.4rem;
-      line-height: 1.5rem;
-      margin-bottom: 40px; }
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      margin-bottom: 40px;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      font-style: normal;
+      color: #292929;
+      word-break: break-word; }
     body main h1.sub-title {
       font-weight: 900;
       font-size: 1.4rem;
-      font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 20px 0; }
     body main img.images {
-      width: 60vw;
+      width: 35vw;
       margin: 20px 0;
       box-sizing: border-box;
       border-radius: 5px; }
+    body main .list ul {
+      text-decoration: dashed; }
+      body main .list ul li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: dashed;
+        list-style: circle; }
+    body main ul {
+      text-decoration: dashed;
+      margin: 30px; }
+      body main ul li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: dashed;
+        list-style: circle; }
+    body main h1 {
+      margin: 20px 0; }
+  body footer.footer-page {
+    height: 355px;
+    background-color: black; }
