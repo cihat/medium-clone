@@ -1,7 +1,6 @@
 {
   "name": "html-css",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --watch scss/ -o css",
@@ -12,5 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihatdev/medium-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cihatdev/medium-clone/issues"
+  },
+  "homepage": "https://github.com/cihatdev/medium-clone#readme",
+  "description": ""
 }
